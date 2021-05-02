@@ -1,5 +1,7 @@
 library(shiny)
 
+print("hello world")
+
 # Training set
 TrainSet <- read.csv("training.csv", header = TRUE)
 TrainSet <- TrainSet[,-1]
